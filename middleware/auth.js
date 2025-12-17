@@ -20,7 +20,7 @@ const authMiddleware = (req, res, next) => {
 
 const isParkingManager = (req, res, next) => {
     if (req.user.role !== 'ParkingManager') {
-        return res.status(403).json({ error: 'Access denied. Parking Manager only.' });
+        return res.status(403).json({ error: 'Access denied. Parking Manager only do this.' });
     }
     next();
 };

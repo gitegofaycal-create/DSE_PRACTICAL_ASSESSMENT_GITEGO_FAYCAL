@@ -74,7 +74,7 @@ Copy the token! You'll need it for protected routes.
 
 ---
 
-## **🚗 4. Record Vehicle Entry (Manager Only)**
+## ** 4. Record Vehicle Entry (Manager Only)**
 
 **Method:** `POST`  
 **URL:** `http://localhost:3000/api/parking/entry`  
