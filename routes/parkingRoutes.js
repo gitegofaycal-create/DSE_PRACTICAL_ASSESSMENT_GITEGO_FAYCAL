@@ -6,9 +6,7 @@ const {
     recordExit,
     getParkedVehicles,
     getParkingHistory,
-    getMyParkingRecords,
-    getDailyReport,
-    getMonthlyReport
+    getMyParkingRecords
 } = require('../controllers/parkingController');
 const { authMiddleware, isParkingManager } = require('../middleware/auth');
 const { entryValidation, validateRequest } = require('../middleware/validation');
